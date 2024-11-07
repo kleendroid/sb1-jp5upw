@@ -1,0 +1,66 @@
+/* Modern UI Styles */
+.photon-action-button {
+    margin-left: 12px !important;
+    padding: 6px 12px !important;
+    background: rgba(255, 255, 255, 0.05) !important;
+    border: 1px solid rgba(255, 255, 255, 0.1) !important;
+    border-radius: 6px !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+    cursor: pointer !important;
+    transition: all 0.2s ease-in-out !important;
+    backdrop-filter: blur(5px) !important;
+}
+
+.photon-action-button:hover {
+    background: rgba(255, 255, 255, 0.08) !important;
+    border-color: rgba(255, 255, 255, 0.2) !important;
+    transform: translateY(-1px) !important;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2) !important;
+}
+
+.photon-action-button:active {
+    transform: translateY(0) !important;
+}
+
+.button-content {
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+    gap: 8px !important;
+}
+
+.button-icon {
+    font-size: 14px !important;
+    color: rgba(255, 255, 255, 0.9) !important;
+}
+
+.tweet-preview-container {
+    margin: 12px 0 8px 0 !important;
+    padding: 12px !important;
+    background: rgba(20, 22, 25, 0.7) !important;
+    border-radius: 12px !important;
+    border: 1px solid rgba(255, 255, 255, 0.08) !important;
+    overflow: hidden !important;
+    transition: all 0.3s ease-in-out !important;
+    backdrop-filter: blur(10px) !important;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1) !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
+.tweet-preview-container:hover {
+    background: rgba(20, 22, 25, 0.8) !important;
+    border-color: rgba(255, 255, 255, 0.12) !important;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15) !important;
+}
+
+.tweet-preview-frame {
+    border: none !important;
+    width: 100% !important;
+    height: 250px !important;
+    border-radius: 8px !important;
+    background: transparent !important;
+    transition: all 0.3s ease !important;
+    margin: 0 !important;
+    padding: 0 !important;
+}

@@ -1,0 +1,16 @@
+{
+  "manifest_version": 3,
+  "name": "Photon Board Enhancer",
+  "version": "1.1",
+  "description": "Enhanced Photon board experience with modern UI elements",
+  "permissions": [
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["*://photon-sol.tinyastro.io/*"],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ]
+}
